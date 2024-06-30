@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Vocabulary</title>
+    <link rel="stylesheet" href="ilustra.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <button onclick="showCategory('days')">Days of the Week</button>
+        <button onclick="showCategory('months')">Months</button>
+        <button onclick="showCategory('colors')">Colors</button>
+        <button onclick="showCategory('animals')">Animals</button>
+        <button onclick="showCategory('fruits')">Fruits</button>
+        <button onclick="showCategory('elements')">Elements</button>
+        <button onclick="showCategory('vegetables')">Vegetables</button>
+        <button onclick="showCategory('seasons')">Seasons</button>
+    </div>
+    <div class="content">
+        <div class="category" id="days">
+            <h2>Days of the Week</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Понедельник">
+                <p>понедельник (ponedel'nik) - Monday</p>
+                <div class="buttons">
+                    <button onclick="showWord('days', -1)">Previous</button>
+                    <button onclick="showWord('days', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="months" style="display:none;">
+            <h2>Months</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Январь">
+                <p>январь (yanvar') - January</p>
+                <div class="buttons">
+                    <button onclick="showWord('months', -1)">Previous</button>
+                    <button onclick="showWord('months', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="colors" style="display:none;">
+            <h2>Colors</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Красный">
+                <p>красный (krasnyy) - Red</p>
+                <div class="buttons">
+                    <button onclick="showWord('colors', -1)">Previous</button>
+                    <button onclick="showWord('colors', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="animals" style="display:none;">
+            <h2>Animals</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Кот">
+                <p>кот (kot) - Cat</p>
+                <div class="buttons">
+                    <button onclick="showWord('animals', -1)">Previous</button>
+                    <button onclick="showWord('animals', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="fruits" style="display:none;">
+            <h2>Fruits</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Яблоко">
+                <p>яблоко (yabloko) - Apple</p>
+                <div class="buttons">
+                    <button onclick="showWord('fruits', -1)">Previous</button>
+                    <button onclick="showWord('fruits', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="elements" style="display:none;">
+            <h2>Elements</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Ветер">
+                <p>ветер (veter) - Wind</p>
+                <div class="buttons">
+                    <button onclick="showWord('elements', -1)">Previous</button>
+                    <button onclick="showWord('elements', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="vegetables" style="display:none;">
+            <h2>Vegetables</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Картофель">
+                <p>картофель (kartofel') - Potato</p>
+                <div class="buttons">
+                    <button onclick="showWord('vegetables', -1)">Previous</button>
+                    <button onclick="showWord('vegetables', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+        <div class="category" id="seasons" style="display:none;">
+            <h2>Seasons</h2>
+            <div class="word-container active">
+                <img src="placeholder.jpg" alt="Весна">
+                <p>весна (vesna) - Spring</p>
+                <div class="buttons">
+                    <button onclick="showWord('seasons', -1)">Previous</button>
+                    <button onclick="showWord('seasons', 1)">Next</button>
+                </div>
+            </div>
+            <!-- Add more word-container divs for each word in this category -->
+        </div>
+    </div>
+    <script src="ilustra.js"></script>
+</body>
+</html>

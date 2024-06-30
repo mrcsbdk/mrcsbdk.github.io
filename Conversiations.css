@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: 100px; /* Enable vertical scrollbar */
+    height: calc(100vh - 40px); /* Adjust height to fit viewport minus navigation buttons */
+    padding-right: 17px; /* Adjust for scrollbar width */
+}
+
+#dialogue {
+    margin-bottom: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -17px; /* Compensate for scrollbar width */
+}
+
+button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    text-align: left;
+}
+
+.highlight-yellow {
+    color: yellow;
+}
+
+.highlight-red {
+    color: red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Verbs Practice</title>
+    <link rel="stylesheet" href="Per_imper_verbs.css">
+    <style>
+        body, div, p, span {
+            user-select: text; /* Ensure text selection works */
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">Menu</div>
+    <div id="popup">
+        <h3>Saved Phrases</h3>
+        <div id="saved-phrases"></div>
+    </div>
+
+    <div class="container">
+        <div id="dialogue">
+            <h2 id="title">Text One</h2>
+            <p id="content">Привет, Андрей! Как дела?<br><br>Привет, Анна! Всё хорошо. Как твои дела?<br><br>Замечательно! Ты знаешь, что Михаил <span class="verb" data-imperfective="становится" data-translation="becomes">станет</span> учителем?<br><br>Да, слышал об этом. А ты знала, что Наталья <span class="verb" data-imperfective="становится" data-translation="becomes">стала</span> знаменитой?<br><br>Да, она так много <span class="verb" data-imperfective="делает" data-translation="does">сделала</span> для этого. Кстати, я <span class="verb" data-imperfective="делаю" data-translation="do">сделаю</span> это завтра.<br><br>Отлично! Я уверен, что ты <span class="verb" data-imperfective="делаешь" data-translation="do">сделаешь</span> всё правильно.<br><br>Спасибо. А ты что планируешь <span class="verb" data-imperfective="делать" data-translation="do">делать</span> завтра?<br><br>Я <span class="verb" data-imperfective="иду" data-translation="go">пойду</span> в парк завтра. Хочу немного отдохнуть.<br><br>Звучит здорово. Я тоже хочу <span class="verb" data-imperfective="гулять" data-translation="walk">погулять</span>.</p>
+        </div>
+        <div class="navigation">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+
+    <script src="Per_imper_verbs.js"></script>
+    <script src="Per_imper_verbs2.js"></script>
+</body>
+</html>
